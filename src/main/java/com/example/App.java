@@ -15,7 +15,7 @@ public class App {
     @RestController
     public class HelloController {
 
-        @GetMapping("/hello")
+        @GetMapping("/")
         public String sayHello() {
             return "Hello from Java and Kubernetes!";
         }
