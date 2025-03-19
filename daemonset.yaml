@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: myapp-container
-        image: us.icr.io/sn-labs-ritikaj/myapp:v1
+        image: us.icr.io/<your SN labs namespace>/myapp:v1
         ports:
         - containerPort: 3000
           name: http
